@@ -6,12 +6,16 @@
 /* Column 12/12 */
 #content .column-full{
  background-color:#b7b7b7;
+ background-size:auto;
+ background-image:linear-gradient(to right, #3e5151 0%, #decba4 100%);
 }
 
 /* Container */
 #container{
  background-size:auto;
- background-color:#424549;
+ background-color:#000000;
+ background-image:linear-gradient(176deg, #3e5151 0%, #decba4 100%);
+ transform:translatex(0px) translatey(0px);
 }
 
 /* Top menu */
@@ -47,5 +51,24 @@
 .tab-bar-section div button{
  background-image:linear-gradient(to right, #3e5151 0%, #decba4 100%);
  display:none;
+}
+
+/* Notification toggle */
+#notification-toggle{
+ background-color:transparent;
+}
+
+/* Th */
+.timetable tr th{
+ background-color:#424549 !important;
+ color:#ffffff !important;
+}
+
+/* Timetable subject */
+.timetable tr .timetable-subject{
+ background-color:#c6c6c6 !important;
+ font-family:Verdana,Geneva,sans-serif;
+ color:#000000;
+ background-image:linear-gradient(to right, #3e5151 0%, #decba4 100%);
 }
 
