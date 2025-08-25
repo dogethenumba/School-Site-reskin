@@ -1,0 +1,51 @@
+/* Image */
+#profile-drop img{
+ display:none;
+}
+
+/* Column 12/12 */
+#content .column-full{
+ background-color:#b7b7b7;
+}
+
+/* Container */
+#container{
+ background-size:auto;
+ background-color:#424549;
+}
+
+/* Top menu */
+#top-menu{
+ background-image:linear-gradient(to right, #3e5151 0%, #decba4 100%);
+ padding-left:3px;
+}
+
+/* Menu Link */
+#left-off-canvas-toggle{
+ background-size:cover;
+ background-image:linear-gradient(to right, #3e5151 0%, #decba4 100%);
+ width:140%;
+ display:none;
+}
+
+/* Image */
+.tab-bar-section .logo img{
+ background-image:linear-gradient(to right, #3e5151 0%, #decba4 100%);
+ display:none;
+}
+
+.tab-bar .tab-bar-section .logo{
+ display:none;
+}
+
+/* Menu toggle */
+#menu-toggle{
+ padding-top:56px;
+}
+
+/* Button */
+.tab-bar-section div button{
+ background-image:linear-gradient(to right, #3e5151 0%, #decba4 100%);
+ display:none;
+}
+
